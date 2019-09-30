@@ -1,0 +1,19 @@
+.header_logo .back_fon_logo{
+    background: #000;
+}
+.conditions{
+    margin-top: 263px;
+    background: #000;
+    text-align: center;
+}
+.conditions p{
+    width: 60%;
+    color: white;
+    margin-left: 266px;
+}
+.conditions h1{
+    color: red;
+}
+#footer{
+    margin-top: -16px;
+}

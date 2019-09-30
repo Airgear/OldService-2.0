@@ -1,0 +1,73 @@
+/* header top soc button  */
+.facebook {
+    background: url(../img/social/facebook.png);
+}
+
+.instagram {
+    background: url(../img/social/instagram.png);
+}
+
+.telegram {
+    background: url(../img/social/telegram.png);
+}
+
+.viber {
+    background: url(../img/social/viber.png);
+}
+
+.youtube {
+    background: url(../img/social/youtube.png);
+}
+
+.facebook:hover {
+    background: url(../img/social/facebook3.png);
+}
+
+.instagram:hover {
+    background: url(../img/social/instagram3.png);
+}
+
+.telegram:hover {
+    background: url(../img/social/telegram3.png);
+}
+
+.viber:hover {
+    background: url(../img/social/viber3.png);
+}
+
+.youtube:hover {
+    background: url(../img/social/youtube3.png);
+}
+.header_topline p a:hover {
+    color:rgb(253, 253, 253);
+}
+/* header top soc button  */
+
+/* menu */
+#content_menu .menu:hover .submenu_tel{
+        opacity: 1; 
+    visibility: visible;
+}
+#content_menu .menu:hover .submenu_note{
+        opacity: 1; 
+    visibility: visible;
+}
+.menu:hover a{
+    display: inline-block;
+}
+.menu img:hover {
+    transform: scale(1.2);
+}
+.submenu_tel img:hover{
+    transform: scale(1.2);
+}
+.submenu_note img:hover{
+    transform: scale(1.2);
+}
+/* button up */
+#top {
+    background: url(../img/up.png)
+}
+#top:hover {
+    background: url(../img/up3.png)
+}
