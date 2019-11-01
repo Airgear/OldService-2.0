@@ -1,3 +1,4 @@
+html,
 body{
     padding: 0;
     margin: 0;
@@ -48,18 +49,20 @@ body{
 /* header_topline */
 
 /* content_logo */
-.header_logo{
+.header_logo {
+    width: 100%;
+    height: 28%;
     position: absolute;
+    z-index: 1;
 }
 .back_fon_logo {
-    margin: -1px -15px;
+    margin: -1px -119px;
     height: 265px;
     width: 1349px;
 }
 img.logo {
-    margin-top: -19.8em;
-    height: 10em;
-    padding-left: 228px;
+    margin-top: -264px;
+    height: 150px;
     position: relative;
 }
 /* content_logo */
@@ -67,7 +70,7 @@ img.logo {
 /* content_menu */
 #content_menu {
     margin-top: -17px;
-    margin-left: 205px;
+    margin-left: -23px;
 }
 #content_menu .menu{
     display: inline-block;
@@ -81,14 +84,14 @@ img.logo {
     visibility: hidden;
     transition-property: opacity, visibility;
     transition-duration: 0.4s;
-    transition-delay: 0.6s;
+    transition-delay: 0.3s;
 }
 #content_menu .submenu_note {
     opacity: 0;
     visibility: hidden;
     transition-property: opacity, visibility;
     transition-duration: 0.4s;
-    transition-delay: 0.6s;
+    transition-delay: 0.3s;
 }
 #content_menu img{
     height: 80px;
@@ -97,14 +100,14 @@ img.logo {
 }
 .menu .submenu_tel {
     position: absolute;
-    margin-left: -225px;
-    padding-top: 24px;
+    margin-left: -232px;
+    padding-top: 23px;
     cursor: pointer;
 }
 .menu .submenu_note {
     position: absolute;
-    margin-left: -40px;
-    padding-top: 24px;
+    margin-left: -53px;
+    padding-top: 23px;
     cursor: pointer;
 }
 .submenu_tel a {
@@ -123,6 +126,7 @@ img.logo {
     top:0;
     transition: all ease 1s;
     border: solid 1px;
+    z-index: 3;
 }
 #applications label{
     padding-left: 30px;
@@ -156,6 +160,16 @@ img.logo {
 #close_button p{
     margin-top: -5px;
 }
+/* ===== Button-back ===== */
+#back {
+    width: 140px;
+    position: absolute;
+    margin-left: 870px;
+    margin-top: -51px;
+}
+#back p {
+    margin-top: -6px;
+}
 /* ===== Button-top ===== */
 #top{
     position: fixed;
@@ -172,17 +186,34 @@ img.logo {
     margin-bottom: 0px;
 }
 .footer-widgets-area {
-    float:left;
-    width: 50%;
+    text-align: center;
 }
 .footer-widgets-sidebar {
-    float: right;
+    float: left;
     width: 50%;
+    height: 400px;
+    width: 500px;
 }
 .map img {
     height: 340px;
     width: 565px;
     border: 4px solid;
+}
+.about_us{
+    width: 50%;
+    text-align: center;
+    padding-top: 20px;
+}
+.about_us p{
+    padding-top: 50px;
+}
+.paragraph_1{
+    float: left;
+    padding-left: 85px;
+}
+.paragraph_2{
+    float: right;
+    padding-right: 90px;
 }
 #footer .container {
     padding-top: 13px;
@@ -219,3 +250,4 @@ img.logo {
 #copyright div p:last-child { margin-bottom: 0px; }
 #copyright div p a { color: #575858; font-size: 12px; }
 #copyright div p a:hover { color: #EE8F05; }
+

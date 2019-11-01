@@ -1,0 +1,39 @@
+h2{
+    color: white;
+}
+.header_logo {
+    background: #000;
+}
+.conditions {
+    margin-top: 125px;
+    background: #000;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.table tr td{
+    color: white;
+}
+.table tr th{
+    color: white;
+}
+.price-list {
+    width: 72.5%;
+    padding-top: 137px;
+    padding-left: 28%;
+}
+.prices1{
+    width: 18%;
+}
+.times1{
+    width: 18%;
+}
+.typeofwork{
+    width: 100%;
+}
+@media(max-width:1400px){
+.price-list {
+    width: 81.5%;
+    padding-top: 137px;
+    padding-left: 19%;
+}
+}

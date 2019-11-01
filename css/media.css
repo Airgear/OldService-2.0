@@ -1,8 +1,223 @@
-@media(min-width:551px){
-.back_fon_logo{ 
+@media(max-width:1400px){
+    /* header_topline */
+.soc_button{
+    float: left;
+}
+.soc_button a{
+    padding-right: 10px;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+}
+.contact_head{
+    float:right;
+}
+.contact_head p {
+    float:right;
+    margin: 0;
+    font-size: 15px;
+    color:#EE8F05;
+}
+.contact_head p a{
+    color:#EE8F05;
+}
+.contact_head img{
+    padding-right: 10px;
+    height: 16px;
+}
+.contact_head span{
+    padding-left: 10px;
+}
+.header_topline{
+    background: #000;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.btn {
+    height: 30px;
+}
+.btn p{
+    height: 30px;
+    color: #000;
+    margin-top: -4px;
+}
+/* header_topline */
+
+/* content_logo */
+.header_logo{
+    position: absolute;
+}
+.container {
+    /* position: relative; */
+    max-width: 60%;
+}
+.back_fon_logo {
     margin: -1px -15px;
-    height: 153px;
-    width: 753px;
+    height: 265px;
+    width: 1349px;
+}
+img.logo {
+    margin-top: -19.8em;
+    height: 10em;
+    padding-left: 228px;
+    position: relative;
+}
+/* content_logo */
+
+/* content_menu */
+#content_menu {
+    margin-top: -17px;
+    margin-left: 205px;
+}
+#content_menu .menu{
+    display: inline-block;
+    margin-left: 30px;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+}
+#content_menu .submenu_tel {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: 0.4s;
+    transition-delay: 0.6s;
+}
+#content_menu .submenu_note {
+    opacity: 0;
+    visibility: hidden;
+    transition-property: opacity, visibility;
+    transition-duration: 0.4s;
+    transition-delay: 0.6s;
+}
+#content_menu img{
+    height: 80px;
+    width: 80px;
+    border-radius: 9px;
+}
+.menu .submenu_tel {
+    position: absolute;
+    margin-left: -225px;
+    padding-top: 24px;
+    cursor: pointer;
+}
+.menu .submenu_note {
+    position: absolute;
+    margin-left: -40px;
+    padding-top: 24px;
+    cursor: pointer;
+}
+.submenu_tel a {
+    padding-left: 5px;
+}
+.submenu_note a {
+    padding-left: 5px;
+}
+/* ===== Applications ===== */
+#applications{
+    width: 450px;
+    height: 100vh;
+    background-color: #cccccc;
+    position: fixed;
+    right: -450px;
+    top:0;
+    transition: all ease 1s;
+    border: solid 1px;
+}
+#applications label{
+    padding-left: 30px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+#fio_applications{
+    margin-left: 20px;
+    width: 410px;
+}
+#phone_applications{
+    margin-left: 20px;
+    width: 410px;
+}
+#malfun{
+    height: 235px;
+    margin-left: 20px;
+    width: 410px;
+}
+#close_button{
+    margin-top: 40px;
+    margin-left: 184px;
+}
+#tosend{
+    margin-top: 45px;
+    margin-left: 175px;
+}
+#tosend p{
+    margin-top: -5px;
+}
+#close_button p{
+    margin-top: -5px;
+}
+/* ===== Button-top ===== */
+#top{
+    position: fixed;
+    right: 35px;
+    bottom: 45px;
+    height: 45px;
+    width: 45px;
+    display: none;
+    cursor: pointer;
+}
+/* ===== FOOTER ===== */
+#footer {
+    background-color: #cccccc;
+    margin-bottom: 0px;
+}
+.footer-widgets-area {
+    text-align: center;
+}
+.footer-widgets-sidebar {
+    float: left;
+    width: 50%;
+    height: 100px;
+    width: 100px;
+}
+.map img {
+    height: 340px;
+    width: 565px;
+    border: 4px solid;
+}
+#footer .container {
+    padding-top: 13px;
+    padding-bottom: 20px;
 }
 
+#footer h3 {
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
+
+#footer .widget ul, #footer .widget ol { margin-top: -10px; }
+#footer .widget ul ul, #footer .widget ol ol { margin-top: 0px; }
+#footer .widget li { list-style: none; float: left; padding-left: 13px;}
+#copyright {
+    background-color: #fff;
+    margin-top: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+#footer + #copyright { margin-top: 0px; }
+#copyright .container { padding: 13px 0 10px 0; }
+
+.gecko #copyright .container { padding-top: 5px; padding-bottom: 4px; }
+
+#copyright {background: black}
+#copyright .center { text-align: center; }
+#copyright .left { text-align: left; }
+#copyright .right { text-align: right; }
+
+#copyright div p { color: #959494; font-size: 12px; text-align: center; }
+#copyright div p:first-child { margin-top: 0px; }
+#copyright div p:last-child { margin-bottom: 0px; }
+#copyright div p a { color: #575858; font-size: 12px; }
+#copyright div p a:hover { color: #EE8F05; }
+} 

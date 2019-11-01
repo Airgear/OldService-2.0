@@ -45,11 +45,11 @@
 
 /* menu */
 #content_menu .menu:hover .submenu_tel{
-        opacity: 1; 
+    opacity: 1; 
     visibility: visible;
 }
 #content_menu .menu:hover .submenu_note{
-        opacity: 1; 
+    opacity: 1; 
     visibility: visible;
 }
 .menu:hover a{
